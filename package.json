@@ -4,7 +4,9 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-    "test": "karma start karma.conf.js"
+    "test": "karma start karma.conf.js",
+    "postinstall": "gulp build",
+    "start": "node app"
   },
   "repository": {
     "type": "git",
